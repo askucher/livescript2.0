@@ -50,6 +50,47 @@ func wrong-model  #=> Compile Error
 
 ```
 
+* Livescript to AST / AST to Livescript conversion without loosing of information 
+
+```Livescript 
+
+#LiveScript 1 looses curried function information in AST
+carried-function = (x, xs)--> 
+
+
+```
+
+
+* Better Javascript Rendering 
+
+``` Livescript
+
+$scope
+  ..prop = []
+  ..prop2 = 2
+```
+
+Should be generated into 
+
+``` Javscript
+  $scope.prop = []
+
+  $scope.prop2 = 2
+```
+
+instead of 
+
+``` Javscript
+  /* looks ugly, unlogical, with extra reference and people don't like it */
+  var x$ = undefined
+  x$ = $scope
+  x$.prop = []
+  x$.prop2 = 2
+```
+
+
+
+
 
 Status
 ```
