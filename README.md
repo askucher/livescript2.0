@@ -46,7 +46,7 @@ func = (user of User)->
 wrong-model =
   something: "Another"
 
-func wrong-model  //=> Compilation Error
+func wrong-model  #=> Compile Error
 
 ```
 
