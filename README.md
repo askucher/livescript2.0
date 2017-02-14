@@ -40,7 +40,7 @@ interface User =
   last-name: String
   email: String | Missing
   
-func = (User user)->
+func = (*User user)->
    console.log user.first-name
 
 ```
