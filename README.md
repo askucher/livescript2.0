@@ -1,7 +1,7 @@
 # livescript2.0
 ---------------
 
-![Logo](https://content.screencast.com/users/a.stegno/folders/Jing/media/3cb47155-8173-4231-8473-9908bcb44682/00000142.png)
+![Logo](https://content.screencast.com/users/a.stegno/folders/Jing/media/31c82430-fe2d-4f78-8d13-93388950bccc/00000143.png)
 
 List of Requested Features:
 
@@ -9,4 +9,7 @@ List of Requested Features:
 * Typescript Interfaces Support
 * Better working with `then` promises
 
-
+Status
+```
+Descussions before Development 
+```
