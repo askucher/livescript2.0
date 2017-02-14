@@ -3,9 +3,9 @@
 
 ![Logo](https://content.screencast.com/users/a.stegno/folders/Jing/media/31c82430-fe2d-4f78-8d13-93388950bccc/00000143.png)
 
-List of Requested Features:
+## List of Requested Features:
 
-* Livescript + Pug/Jade Internal Syntax Support (React Support)
+### Livescript + Pug/Jade Internal Syntax Support (React Support)
 
 ```Livescript
 
@@ -29,7 +29,7 @@ inject-onload main, \app
 
 ```
 
-* Typescript Interfaces Support
+### Typescript Interfaces Support
 
 ```Livescript
 
@@ -50,7 +50,7 @@ func wrong-model  #=> Compile Error
 
 ```
 
-* Livescript to AST / AST to Livescript conversion without loosing of information 
+### Livescript to AST / AST to Livescript conversion without loosing of information 
 
 ```Livescript 
 
@@ -61,7 +61,7 @@ carried-function = (x, xs)-->
 ```
 
 
-* Better Javascript Rendering 
+### Better Javascript Rendering 
 
 ``` Livescript
 
