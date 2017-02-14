@@ -3,7 +3,7 @@
 
 5 Years of LiveScript Experience showed issues which we should solve in LiveScript 2.0
 
-![Logo](https://content.screencast.com/users/a.stegno/folders/Jing/media/c44ce2aa-1d36-4c08-94ef-f7457f7ae6ec/00000144.png)
+![Logo](https://content.screencast.com/users/a.stegno/folders/Jing/media/18a908ce-8b48-4ee2-9357-c25e42562607/00000145.png)
 
 ## List of Requested Features:
 
