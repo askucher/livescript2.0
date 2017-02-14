@@ -80,8 +80,8 @@ Should be generated into
 
 instead of 
 
-``` Javscript
-  /* looks ugly, unlogical, with extra reference and people don't like it */
+``` Javascript
+  // looks ugly, unlogical, with extra reference and people don't like it
   var x$ = undefined
   x$ = $scope
   x$.prop = []
