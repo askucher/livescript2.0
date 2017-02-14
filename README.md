@@ -6,8 +6,45 @@
 List of Requested Features:
 
 * Livescript + Pug/Jade Internal Syntax Support (React Support)
+
+```Livescript
+
+{ render } = require \react-dom
+{ create-class, inject-onload} = require \lsx
+request = require \superagent
+main = create-class do
+    text: "Click Button"
+    test-func: ->
+        t = @
+        err, data <-! request.get(\//root.flyber.net/test).end
+        t.text = data.text
+        t.force-update!
+    render : ->
+        ul.some-class
+           li.another-div(on-click = @test-func title="Nested Div") @text
+           li.another-div(on-click = @test-func title="Nested Div") Another Li
+           
+
+inject-onload main, \app
+
+```
+
 * Typescript Interfaces Support
-* Better working with `then` promises
+
+```Livescript
+
+interface Missing = Null | Undefined
+
+interface User = 
+  first-name: String
+  last-name: String
+  email: String | Missing
+  
+func = (User user)->
+   console.log user.first-name
+
+```
+
 
 Status
 ```
