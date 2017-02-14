@@ -13,3 +13,4 @@ Status
 ```
 Descussions before Development 
 ```
+Please propose your features in `Issues` section
