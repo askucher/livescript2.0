@@ -1,6 +1,10 @@
 # livescript2.0
 ---------------
-Livescript + Pug/Jade Internal Syntax Support (React Support)
 
-I will start this project when you help me to collect 100 stars
+List of Requested Features:
+
+* Livescript + Pug/Jade Internal Syntax Support (React Support)
+* Typescript Interfaces Support
+* Better working with `then` promises
+
 
