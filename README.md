@@ -43,6 +43,11 @@ interface User =
 func = (user of User)->
    console.log user.first-name
 
+wrong-model =
+  something: "Another"
+
+func wrong-model  //=> Compilation Error
+
 ```
 
 
